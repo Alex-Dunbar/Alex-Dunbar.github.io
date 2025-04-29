@@ -1,79 +1,166 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Simple Website</title>
-    <meta name="description" content="A brief description of your site for search engines">
-    <meta name="author" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title> Alex Dunbar </title>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<body>
+
+<div class="header">
+	<h1>Alex Dunbar</h1>
+</div>
+
+
+<div class = "row">
+  <div class = "side">
+    <img src="MainPicture.jpg" alt = "Picture" width = "220" height ="160">
+  </div>
   
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+  <div class = "main">
+    <p> I'm a fifth-year PhD candidate in Mathematics at <a href = "https://www.math.emory.edu/home/">Emory University</a> coadvised by <a href = "http://www.math.emory.edu/~vicki/">Vicki Powers</a> and <a href = "https://sites.google.com/site/grrigg/">Greg Blekherman</a> (Georgia Tech). I graduated from Rice University in 2020 with a BS in <a href = "https://math.rice.edu/">Mathematics</a> and a BA in <a href = "https://www.caam.rice.edu/">Computational and Applied Math</a>.</p> 
+    <p> My research interests are broadly in algebraic methods for optimization and machine learning. Most recently, I have been thinking about applied aspects of real and tropical geometry.</p>
+        
+  </div>
+</div>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+<button class="accordion">Research</button>
+<div class="panel">
 
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
-  </head>
+  <h3> Research Interests </h3>
+
+  My research interests are in applied algebraic geometry, real algebraic geometry, optimization, and machine learning. I am particularly interested in interactions between real algebraic geometry and semidefinite programming as well as applications of tropical geometry in machine learning. 
   
-  <body>
+  <h3> Publications and Preprints </h3>
+  <ol reversed>
+	<li> "Pythagoras Numbers for Ternary Forms" (with Greg Blekherman and <a href="https://www.math.uni-leipzig.de/~sinn/index_en.html">Rainer Sinn </a>). To appear in <em> Proceedings of the AMS </em> <a href="https://arxiv.org/abs/2410.17123">ArXiv Preprint</a></li>
+	<li> "A Topological Approach to Simple Descriptions of Convex Hulls of Sets Defined by Three Quadrics" (with <a href = "https://sites.google.com/site/grrigg/"> Greg Blekherman</a>). To appear in <em> SIAM Journal on Applied Algebra and Geometry</em> <a href = "https://arxiv.org/abs/2405.18282">ArXiv Preprint</a> </li>
+	<li> "Alternating Minimization for Regression with Tropical Rational Functions" (with <a href = "https://www.math.emory.edu/~lruthot/"> Lars Ruthotto </a>). <em> Algebraic Statistics </em>. <a href = https://msp.org/astat/2024/15-1/p05.xhtml> Published Version</a>  <a href = "https://github.com/Alex-Dunbar/Tropical-Data.git">Code</a>  <a href = "https://arxiv.org/abs/2305.20072">ArXiv Preprint</a>
+	<li>"Relaxations and Duality for Multiobjective Integer Programming" (with <a href="https://saumya-sinha.github.io/index.html">Saumya Sinha</a> and <a href="https://www.caam.rice.edu/~andrew.schaefer/">Andrew J. Schaefer</a>). <em> Mathematical Programming</em>. <a href=https://doi.org/10.1007/s10107-023-02022-7>Published Verison</a> <a href=https://optimization-online.org/2022/08/relaxations-and-duality-for-multiobjective-integer-programming/>Optimization Online Preprint<a> <a href=https://arxiv.org/abs/2309.08801> ArXiv Preprint</a></li>
+  </ol>
 
-    <header id="header">
-      <img src="logo.jpg">
-      <h1>Simple Website</h1>
+  <h4> In Preparation</h4>
+  <ol reversed>
+	<li> "Tensor-Tensor Products, Group Representations, and Semidefinite Programming", with (<a href="https://elizabethnewman.owlstown.net/">Elizabeth Newman</a>) </li>
+  </ol>
+ 
+  <h3> Conference Presentations </h3>
+  <ol reversed>
+	<li> "Alternating Minimization for Regression with Tropical Rational Functions" SIAM Conference on Mathematics of Data Science 2024 (<a href = "SIAM_MDS24_Alternating_Minimization_for_Regression_with_Tropical_Rational_Functions_Poster.pdf"> Poster </a>)</li>
+	<li> "A Topological Approach to Simple Descriptions of Convex Hulls of Sets Defined by Three Quadrics". MEGA (Effective Methods in Algebraic Geometry) 2024 (<a href = "TOpology_and_Aggregations_Slides_MEGA_2024.pdf">slides</a>)</li>
+	<li> "Tensor-Tensor Products, Group Representations, and Semidefinite Programming". JM Invariant @ 60 Conference on Tensor Invariants in Geometry and Complexity Theory 2024, Poster Session</li>
+	<li> "Alternating Minimization for Regression with Tropical Rational Functions". SIAM Conference on Applied Algebraic Geometry 2023, Minisymposium on Real Algebraic Geometry and Optimization.
+	<li> "Alternating Minimization for Regression with Tropical Rational Functions". AMS Spring Southeastern Sectional Meeting 2023, Special Session on Algebraic Methods in Algorithms </li>
+	<li>"An Alternating Minimization Algorithm for Regression with Tropical Rational Functions". Combinatorial, Computational, and Applied Algebraic Geometry 2022 (CCAAGS-22), Poster Session </li>
+	<li>"Relaxation and Duality for Multiobjective Integer Programming". INFORMS Annual Meeting 2020, Undergraduate Operations Research Prize Session A </li>
+  </ol>
+
+  <h3> Upcoming Conferene Travel</h3>
+  <ol>
+	<li> International Conference on Continuous Optimization (ICCOPT) 2025</li>
+  </ol>
+</div>
+
+<button class="accordion">Teaching</button>
+<div class="panel">
+  <p>I am not teaching in Spring 2025. </p>
+
+  <p>Some interactive graphs in Desmos which I used to supplement my Calculus I lecture notes can be found <a href = "DesmosWidgets.html">here</a>.</p>
+  <p>Previous Teaching:</p>
+  <ul>
+	<li> Instructor, Advanced Calculus (MATH 211), Fall 2024</li>
+	<li> Instructor, Advanced Calculus (MATH 211), Fall 2023</li>
+	<li> Instructor, Calculus I (MATH 111), Spring 2023</li>
+	<li> Instructor, Calculus I (MATH 111), Fall 2022</li>
+	<li> TA, Linear Algebra (MATH 221), Spring 2022</li>
+	<li> TA, Numerical Analysis (MATH 315), Fall 2021 </li>
+	<li> Grader, Numerical Analysis (MATH 315), Spring 2021 </li>
+	<li> Grader, Mathematical Statistics I (MATH 361), Fall 2020 </li>
+	<li> Grader, R for Data Science (STAT 405, Rice University), Fall 2018 </li>
+  </ul>	
+
+</div>
+
+<button class="accordion">Activities/Organization</button>
+<div class="panel">
+  <p><strong> Emory Mathematics Directed Reading Program </strong></p>
+
+<p>I have been a graduate student mentor for the Emory Mathematics DRP since Fall 2021. In Spring 2022, I joined the steering comittee to help organize the program. In the 2023-24 academic year, I co-directed the program with <a href = "https://shilpimandal.com"> Shilpi Mandal</a>. 
+For more information about the program, see the <a href = "https:math.emory.edu/~drp">DRP website</a>.<p> 
+
+</p>Past reading topics include:</p>
+
+<ul>
+	<li> Nonlinear Algebra, Spring 2024, based on <em>Invitation to Nonlinear Algebra</em> by Micha&#0322ek and Sturmfels</li>
+	<li>Convex Geometry, Spring 2023, based on <em>Semidefinite Optimization and Convex Algebraic Geometry</em>, edited by Blekherman, Parrilo, and Thomas and <em> Convex Optimization </em> by Boyd and Vandenberghe</li>
+	<li>Concrete Algebra, Fall 2022, based on <em>Ideals, Varieties, and Algorithms</em> by Cox, Little, and O'Shea </li>
+	<li>Computational Algebra Part II, Spring 2022, based on <em>Ideals, Varieties, and Algorithms</em> by Cox, Little, and O'Shea </li>
+	<li>Computational Algebra, Fall 2021, based on <em>Ideals, Varieties, and Algorithms</em> by Cox, Little, and O'Shea </li>
+</ul>
+</div>
+
+<!--
+<button class="accordion">Expository Notes</button>
+<div class="panel">
+	<p>Below are some informal expository notes I prepared for talks at the Emory Graduate Student Algebra and Number Theory Seminar (<a href = "https://sites.google.com/view/emorygradalgntseminar/home">RANT</a>)</p>
+	<ul>
+		<li>Positivity in Real Algebraic Geometry and Moment Problems (<a href="Something_Real_Fun__RANT_Nov_1_2021_.pdf">notes</a>)</li>
+		<li>Gr&#246bner Bases and Integer Programming (<a href = "RANT_Grobner_Bases_IPs.pdf">slides</a>)</li>
+	</ul> 
+</div>
+-->
+
+<button class="accordion">Other</button>
+<div class="panel">
+<div class = "row">
+  <div class = "side">
+    <img src="RunningPicture.jpg" alt = "2022LAHALF" width = 140px height = 200px>
+  </div>
+  
+  <div class = "main">
+  <p>When I am not doing math, I enjoy distance running. In college, I competed on the Rice Cross Country and Track & Field (5000m, 10000m) teams. Since graduating, I have participated in a variety of races on roads and trails. (Picture is from 2022 Lousiana Half Marathon)</p>
+  </div>
+</div>
+</div>
+
+<div class="footer">
+	<p>Contact: alex.dunbar (at) emory.edu </p>
+	<p>Office: MSC N408 </p>
+	<p>  <a
+    id="cy-effective-orcid-url"
+    class="underline"
+     href="https://orcid.org/0009-0009-0552-7198"
+     target="orcid.widget"
+     rel="me noopener noreferrer"
+     style="vertical-align: top">
+     <img
+        src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+        style="width: 1em; margin-inline-start: 0.5em"
+        alt="ORCID iD icon"/>
       
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
-    </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/cpl-makerlab/simple-website-template">Fork this repository</a> to create your own site!
-            </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
-            </p>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </div>
+    </a></p>
+</div>
 
-    <footer>  
-      Footer region
-    </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
 </html>
